@@ -1,7 +1,6 @@
 ##Intro
 
-SimpleOTP is a Python based minimalist one-time password storage/sharing tool.
-
+SimpleOTP is a Python based minimalist password storage/sharing tool. 
 
 ##Dependencies
 
@@ -17,6 +16,11 @@ SimpleOTP is a Python based minimalist one-time password storage/sharing tool.
 - If you wish to use the HTTPS protocol, you will have to enable it in the app.conf as well as generate your own key and certificate.
 - Ensure that the current user has permissions to modify the content in the directory you're running the app.
 - To run the app, simply execute ./run.sh
+
+##Notes
+
+- Shared password links can only be accessed once.  The password is immediatley deleted from the DB upon retreival.
+
 
 ##License
 
