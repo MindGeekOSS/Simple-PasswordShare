@@ -1,6 +1,6 @@
 ##Intro
 
-SimpleOTP is a Python based minimalist password storage/sharing tool. 
+SimpleOTP is a Python based minimalist password sharing tool. 
 
 ##Dependencies
 
